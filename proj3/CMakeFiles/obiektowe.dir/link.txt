@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/obiektowe.dir/src/kalkulator.cpp.o CMakeFiles/obiektowe.dir/src/main.cpp.o -o obiektowe 

@@ -1,0 +1,3 @@
+/home/kungurian/dev/po/proj3/CMakeFiles/obiektowe.dir
+/home/kungurian/dev/po/proj3/CMakeFiles/edit_cache.dir
+/home/kungurian/dev/po/proj3/CMakeFiles/rebuild_cache.dir
