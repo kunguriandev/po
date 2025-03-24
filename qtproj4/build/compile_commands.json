@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/kungurian/dev/po/qtproj4/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/kungurian/dev/po/qtproj4/build/qtCalc_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -std=gnu++17 -fPIC -o CMakeFiles/qtCalc.dir/qtCalc_autogen/mocs_compilation.cpp.o -c /home/kungurian/dev/po/qtproj4/build/qtCalc_autogen/mocs_compilation.cpp",
+  "file": "/home/kungurian/dev/po/qtproj4/build/qtCalc_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/qtCalc.dir/qtCalc_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/kungurian/dev/po/qtproj4/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/kungurian/dev/po/qtproj4/build/qtCalc_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -std=gnu++17 -fPIC -o CMakeFiles/qtCalc.dir/src/main.cpp.o -c /home/kungurian/dev/po/qtproj4/src/main.cpp",
+  "file": "/home/kungurian/dev/po/qtproj4/src/main.cpp",
+  "output": "CMakeFiles/qtCalc.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/kungurian/dev/po/qtproj4/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/kungurian/dev/po/qtproj4/build/qtCalc_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -std=gnu++17 -fPIC -o CMakeFiles/qtCalc.dir/src/mainwindow.cpp.o -c /home/kungurian/dev/po/qtproj4/src/mainwindow.cpp",
+  "file": "/home/kungurian/dev/po/qtproj4/src/mainwindow.cpp",
+  "output": "CMakeFiles/qtCalc.dir/src/mainwindow.cpp.o"
+}
+]
