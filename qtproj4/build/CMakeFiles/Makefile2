@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kungurian/dev/po/qtproj4
+CMAKE_SOURCE_DIR = /home/kungurian/dev/po2/po/qtproj4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kungurian/dev/po/qtproj4/build
+CMAKE_BINARY_DIR = /home/kungurian/dev/po2/po/qtproj4/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ CMakeFiles/qtCalc.dir/all: CMakeFiles/qtCalc_autogen_timestamp_deps.dir/all
 CMakeFiles/qtCalc.dir/all: CMakeFiles/qtCalc_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtCalc.dir/build.make CMakeFiles/qtCalc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtCalc.dir/build.make CMakeFiles/qtCalc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kungurian/dev/po/qtproj4/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target qtCalc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target qtCalc"
 .PHONY : CMakeFiles/qtCalc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qtCalc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po/qtproj4/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qtCalc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po/qtproj4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles 0
 .PHONY : CMakeFiles/qtCalc.dir/rule
 
 # Convenience name for target.
@@ -110,14 +110,14 @@ CMakeFiles/qtCalc.dir/clean:
 CMakeFiles/qtCalc_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtCalc_autogen_timestamp_deps.dir/build.make CMakeFiles/qtCalc_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtCalc_autogen_timestamp_deps.dir/build.make CMakeFiles/qtCalc_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kungurian/dev/po/qtproj4/build/CMakeFiles --progress-num= "Built target qtCalc_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles --progress-num= "Built target qtCalc_autogen_timestamp_deps"
 .PHONY : CMakeFiles/qtCalc_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qtCalc_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po/qtproj4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qtCalc_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po/qtproj4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles 0
 .PHONY : CMakeFiles/qtCalc_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -136,14 +136,14 @@ CMakeFiles/qtCalc_autogen_timestamp_deps.dir/clean:
 CMakeFiles/qtCalc_autogen.dir/all: CMakeFiles/qtCalc_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtCalc_autogen.dir/build.make CMakeFiles/qtCalc_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtCalc_autogen.dir/build.make CMakeFiles/qtCalc_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kungurian/dev/po/qtproj4/build/CMakeFiles --progress-num=6 "Built target qtCalc_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles --progress-num=6 "Built target qtCalc_autogen"
 .PHONY : CMakeFiles/qtCalc_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qtCalc_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po/qtproj4/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qtCalc_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po/qtproj4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles 0
 .PHONY : CMakeFiles/qtCalc_autogen.dir/rule
 
 # Convenience name for target.

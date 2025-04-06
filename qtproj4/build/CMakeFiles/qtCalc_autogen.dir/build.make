@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kungurian/dev/po/qtproj4
+CMAKE_SOURCE_DIR = /home/kungurian/dev/po2/po/qtproj4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kungurian/dev/po/qtproj4/build
+CMAKE_BINARY_DIR = /home/kungurian/dev/po2/po/qtproj4/build
 
 # Utility rule file for qtCalc_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/qtCalc_autogen: qtCalc_autogen/timestamp
 qtCalc_autogen/timestamp: /usr/lib/qt6/libexec/moc
 qtCalc_autogen/timestamp: /usr/lib/qt6/libexec/uic
 qtCalc_autogen/timestamp: CMakeFiles/qtCalc_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kungurian/dev/po/qtproj4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qtCalc"
-	/usr/bin/cmake -E cmake_autogen /home/kungurian/dev/po/qtproj4/build/CMakeFiles/qtCalc_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/kungurian/dev/po/qtproj4/build/qtCalc_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qtCalc"
+	/usr/bin/cmake -E cmake_autogen /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles/qtCalc_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/kungurian/dev/po2/po/qtproj4/build/qtCalc_autogen/timestamp
 
 qtCalc_autogen: CMakeFiles/qtCalc_autogen
 qtCalc_autogen: qtCalc_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/qtCalc_autogen.dir/clean:
 .PHONY : CMakeFiles/qtCalc_autogen.dir/clean
 
 CMakeFiles/qtCalc_autogen.dir/depend:
-	cd /home/kungurian/dev/po/qtproj4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kungurian/dev/po/qtproj4 /home/kungurian/dev/po/qtproj4 /home/kungurian/dev/po/qtproj4/build /home/kungurian/dev/po/qtproj4/build /home/kungurian/dev/po/qtproj4/build/CMakeFiles/qtCalc_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kungurian/dev/po2/po/qtproj4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kungurian/dev/po2/po/qtproj4 /home/kungurian/dev/po2/po/qtproj4 /home/kungurian/dev/po2/po/qtproj4/build /home/kungurian/dev/po2/po/qtproj4/build /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles/qtCalc_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/qtCalc_autogen.dir/depend
 

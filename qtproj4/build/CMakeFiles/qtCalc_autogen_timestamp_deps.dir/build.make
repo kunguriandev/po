@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kungurian/dev/po/qtproj4
+CMAKE_SOURCE_DIR = /home/kungurian/dev/po2/po/qtproj4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kungurian/dev/po/qtproj4/build
+CMAKE_BINARY_DIR = /home/kungurian/dev/po2/po/qtproj4/build
 
 # Utility rule file for qtCalc_autogen_timestamp_deps.
 
@@ -67,9 +67,9 @@ include CMakeFiles/qtCalc_autogen_timestamp_deps.dir/compiler_depend.make
 include CMakeFiles/qtCalc_autogen_timestamp_deps.dir/progress.make
 
 CMakeFiles/qtCalc_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
-CMakeFiles/qtCalc_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/qtCalc_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
 CMakeFiles/qtCalc_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+CMakeFiles/qtCalc_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 CMakeFiles/qtCalc_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
 
 qtCalc_autogen_timestamp_deps: CMakeFiles/qtCalc_autogen_timestamp_deps
@@ -85,6 +85,6 @@ CMakeFiles/qtCalc_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/qtCalc_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/qtCalc_autogen_timestamp_deps.dir/depend:
-	cd /home/kungurian/dev/po/qtproj4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kungurian/dev/po/qtproj4 /home/kungurian/dev/po/qtproj4 /home/kungurian/dev/po/qtproj4/build /home/kungurian/dev/po/qtproj4/build /home/kungurian/dev/po/qtproj4/build/CMakeFiles/qtCalc_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kungurian/dev/po2/po/qtproj4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kungurian/dev/po2/po/qtproj4 /home/kungurian/dev/po2/po/qtproj4 /home/kungurian/dev/po2/po/qtproj4/build /home/kungurian/dev/po2/po/qtproj4/build /home/kungurian/dev/po2/po/qtproj4/build/CMakeFiles/qtCalc_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/qtCalc_autogen_timestamp_deps.dir/depend
 
