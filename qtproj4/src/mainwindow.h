@@ -4,6 +4,8 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <QGridLayout>
+#include <QMenuBar>
+#include <QMessageBox>
 #include <cmath>
 
 class MainWindow : public QMainWindow
@@ -12,6 +14,8 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *_parent = nullptr);
+    double getMemory() const { return m_memory; }
+    void setMemory(double value) { m_memory = value; }
 
 private slots:
     void digitClicked();
@@ -22,6 +26,9 @@ private slots:
     void percentClicked();
     void signClicked();
     void sqrtClicked();
+    void convertToBinary();
+    void convertToHex();
+    void showAbout();
 
 private:
     QPushButton* createButton(const QString &_text, const char *_member);
